@@ -1,0 +1,10 @@
+1. create NPM project (npm init)
+2. create style.css,client.js files in public folder and index.html
+in chat folder
+3.install dependecnies : express,nodemon(dev dep)
+npm install express and npm install nodemon -D 
+and change package.json script to "dev" : "nodemon server"
+
+4.create express server in file name server.js in chat folder
+
+5. do front end part

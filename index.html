@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat</title>
+   <style>
+       /*
+       @import url('https://fonts.googleapis.com/css?family=Tangerine');
+ 
+    
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: cyan;
+    font-family: 'Robot', sans-serif;
+}
+* {
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section.chat__section {
+    width: 800px;
+    max-width: 90%;
+    background: #fff;
+    box-shadow: 0 10px 15px -3px;
+    
+}
+.brand{
+    padding: 20px;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+}
+
+
+.brand h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color:#444;
+    margin-left: 10px;
+}
+.message__area{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #FBFBFB;
+}
+
+
+
+section.chat__section {
+    width: 800px;
+    max-width: 90%;
+    background: #fff;
+    box-shadow: 0 10px 15px -3px;
+    
+}
+.brand{
+    padding: 20px;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+}
+
+
+.brand h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color:#444;
+    margin-left: 10px;
+}
+.message__area{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #FBFBFB;
+}
+
+
+
+section.chat__section {
+    width: 800px;
+    max-width: 90%;
+    background: #fff;
+    box-shadow: 0 10px 15px -3px;
+    
+}
+.brand{
+    padding: 20px;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+}
+
+
+.brand h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color:#444;
+    margin-left: 10px;
+}
+.message__area{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #FBFBFB;
+}
+
+.message{
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+
+.message h4{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 14px;
+}
+
+.incoming{
+    background: #8F8BE8;
+    color: #fff;
+}
+.outgoing {
+    background: #e9eafd;
+    color: #787986;
+    margin-left: auto;
+}
+
+*/
+ </style>
+ 
+    
+</head>
+<body>
+    <section class="chat__section">
+        <div class="brand">
+
+            <img height="40" src="logo.png" alt="">
+
+            <h1>whatsapp</h1>
+        </div>
+       
+
+        <div class="message__area">
+           
+    </div>
+        <div>
+            <textarea id="textarea"  cols="30" rows="1" placeholder="write a message"></textarea>
+        </div>
+
+        
+    </section>
+       
+    <script src="/socket.io/socket.io.js"></script>
+    
+    <script src="/client.js"></script>
+
+
+</body>
+</html>
